@@ -1,0 +1,16 @@
+Document Sharing.feature
+language: pt
+Funcionalidade: Compartilhar Documento
+Usuário do aplicativo, deseja compartilhar um documento armazenado no dispositivo.
+
+Contexto:
+    Usuário entra no Whatsapp e acessa uma conversa.
+
+Cenário: Enviar documento para um contato
+
+    Dado o documento do usuário está armazenado no dispositivo 
+    E o usuário está em uma conversa 
+    Quando o usuário selecionar a opção de enviar documento
+    E usuário seleciona o documento
+    E usuário envia o documento marcado
+    Então o documento é enviado 
